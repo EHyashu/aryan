@@ -32,11 +32,9 @@ function type() {
     setTimeout(type, typeSpeedVar);
 }
 
-
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout(type, 1000);
 });
-
 
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-links a');
@@ -123,3 +121,40 @@ const skillTags = document.querySelectorAll('.skill-tag');
 skillTags.forEach((tag, index) => {
     tag.style.setProperty('--delay', index);
 });
+
+
+// 📩 Contact Form Submission Script (Added Below)
+const contactForm = document.querySelector('.contact-form');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(contactForm);
+    const btn = contactForm.querySelector('.btn');
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+
+    try {
+      // ✅ Your Formspree endpoint
+      const response = await fetch('https://formspree.io/f/mdkpwbyp', {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        alert('✅ Message sent successfully!');
+        contactForm.reset();
+      } else {
+        alert('❌ Error sending message. Please try again.');
+      }
+    } catch (error) {
+      alert('⚠️ Network error. Please check your connection.');
+    }
+
+    btn.disabled = false;
+    btn.textContent = 'Send Message';
+  });
+}
+

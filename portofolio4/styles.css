@@ -7,7 +7,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-            color: white;
+            color: rgb(255, 255, 255);
             overflow-x: hidden;
         }
 
@@ -30,12 +30,12 @@
         .logo {
             font-size: 24px;
             font-weight: 700;
-            color: white;
+            color: rgb(250, 248, 248);
             letter-spacing: 1px;
         }
         
         .logo span{
-            color: #2196F3;
+            color: #f1ee3c;
         }
 
         .nav-links {
@@ -55,7 +55,7 @@
 
         .nav-links a:hover,
         .nav-links a.active {
-            color: #c41e3a;
+            color: #faee41;
         }
 
         .nav-links a::after {
@@ -65,7 +65,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #c41e3a;
+            background: #faee41;
             transition: width 0.3s ease;
         }
 
@@ -94,11 +94,11 @@
             width: 380px;
             height: 380px;
             border-radius: 50%;
-            border: 8px solid #2196F3;
+            border: 8px solid #faee41;
             object-fit: cover;
             object-position: center;
             transition: transform 0.4s ease;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+            box-shadow: 0 10px 40px rgba(233, 236, 15, 0.3);
         }
 
         .profile-img:hover {
@@ -118,7 +118,7 @@
 
         .typing-container {
             display: inline-block;
-            color: #2196F3;
+            color: #faee41;
             font-weight: 600;
         }
 
@@ -126,7 +126,7 @@
             display: inline-block;
             width: 2px;
             height: 20px;
-            background: #2196F3;
+            background: #fcfeff;
             margin-left: 2px;
             animation: blink 0.7s infinite;
         }
@@ -139,7 +139,7 @@
         .hero-name {
             font-size: 62px;
             font-weight: 800;
-            color: #2196F3;
+            color: #faee41;
             margin: 20px 0;
             letter-spacing: 2px;
         }
@@ -160,7 +160,7 @@
 
         .btn {
             padding: 14px 35px;
-            border: 2px solid #2196F3;
+            border: 2px solid #faee41;
             background: transparent;
             color: white;
             font-size: 16px;
@@ -173,9 +173,9 @@
         }
 
         .btn:hover {
-            background: #102443;
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.8),
-                        0 0 50px rgba(13, 71, 161, 0.5);
+            background: #faee41;
+            box-shadow: 0 0 25px rgba(223, 210, 91, 0.8),
+                        0 0 50px rgba(233, 221, 53, 0.5);
             transform: translateY(-3px);
         }
 
@@ -191,7 +191,7 @@
         }
 
         .social-links a:hover {
-            color: #2196F3;
+            color: #faee41;
             transform: scale(1.3);
         }
 
@@ -329,7 +329,7 @@
         .section-title {
             font-size: 36px;
             font-weight: 700;
-            color: #2196F3;
+            color: #faee41;
             margin-bottom: 40px;
             text-align: center;
             letter-spacing: 2px;
@@ -359,7 +359,7 @@
 
         .skills h3 {
             font-size: 20px;
-            color: #2196F3;
+            color: #faee41;
             margin-bottom: 10px;
         }
 
@@ -370,8 +370,8 @@
         }
 
         .skill-tag {
-            background: #2196F3;
-            color: white;
+            background: #faee41;
+            color: black;
             padding: 6px 14px;
             border-radius: 20px;
             font-size: 14px;
@@ -393,7 +393,7 @@
         .about-img {
             width: 100%;
             border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+            box-shadow: 0 10px 40px rgba(233, 221, 53, 0.5);
             object-fit: cover;
         }
 
@@ -407,7 +407,7 @@
             position: relative;
             overflow: hidden;
             border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+            box-shadow: 0 10px 40px rgba(238, 232, 142, 0.5);
             cursor: pointer;
             transition: transform 0.3s ease;
             animation: fadeInUp 0.5s ease forwards;
@@ -433,7 +433,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(196, 30, 58, 0.85);
+            background: #e4da6b(243, 241, 207, 0.85);
             color: white;
             opacity: 0;
             display: flex;
@@ -444,10 +444,12 @@
             text-align: center;
             transition: opacity 0.3s ease;
             border-radius: 15px;
+            background:#1a1a1a
         }
 
         .portfolio-item:hover .portfolio-overlay {
             opacity: 1;
+            color:white
         }
 
         .portfolio-overlay h3 {
@@ -474,7 +476,7 @@
         }
 
         .resume-left h3, .resume-right h3 {
-            color: #2196F3;
+            color: #faee41;
             margin-bottom: 20px;
         }
 
@@ -509,7 +511,7 @@
         .blog-post {
             background: #222;
             border-radius: 15px;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+            box-shadow: 0 10px 40px rgba(223, 210, 91, 0.8);
             overflow: hidden;
             display: flex;
             flex-direction: column;
@@ -521,7 +523,7 @@
 
         .blog-post:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(196, 30, 58, 0.6);
+            box-shadow: 0 15px 30px rgba(235, 238, 75, 0.6);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -541,7 +543,7 @@
 
         .blog-content h3 {
             margin-bottom: 10px;
-            color: #2196F3;
+            color: #faee41;
         }
 
         .blog-meta {
@@ -552,14 +554,14 @@
 
         .read-more {
             margin-top: auto;
-            color: #2196F3;
+            color: white;
             text-decoration: none;
             font-weight: 600;
             transition: color 0.3s ease;
         }
 
         .read-more:hover {
-            color: #c41e3a;
+            color: #faee41;
         }
 
         .contact-content {
@@ -586,7 +588,7 @@
 
         .contact-item i {
             font-size: 22px;
-            color: #2196F3;
+            color:#faee41;
         }
 
         .social-links-contact {
@@ -602,7 +604,7 @@
         }
 
         .social-links-contact a:hover {
-            color: #2196F3;
+            color: #faee41;
             transform: scale(1.2);
         }
 
@@ -620,7 +622,7 @@
         .form-group textarea {
             width: 100%;
             padding: 12px 15px;
-            border: 2px solid #2196F3;
+            border: 2px solid #faee41;
             border-radius: 8px;
             background: transparent;
             color: white;
@@ -631,17 +633,17 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-            border-color: #c41e3a;
+            border-color: #faee41;
             outline: none;
         }
 
         .contact-form button {
             width: 100%;
             padding: 14px;
-            background: #2196F3;
+            background: #faee41;
             border: none;
             border-radius: 8px;
-            color: white;
+            color: black;
             font-size: 16px;
             font-weight: 600;
             cursor: pointer;
@@ -649,9 +651,9 @@
         }
 
         .contact-form button:hover {
-            background: #c41e3a;
-            box-shadow: 0 0 25px rgba(196, 30, 58, 0.8),
-                        0 0 50px rgba(196, 30, 58, 0.5);
+            background: #faee41;
+            box-shadow: 0 0 25px rgba(223, 210, 91, 0.8),
+                        0 0 50px rgba(233, 221, 53, 0.5);
             transform: translateY(-3px);
         }
 
