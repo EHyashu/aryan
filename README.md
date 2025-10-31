@@ -1,62 +1,57 @@
-🌐 Aryan Khatri – Personal Portfolio Website
+# 🌐 **Aryan Khatri – Personal Portfolio Website**
 
-Welcome to my personal portfolio repository!
-This project represents my journey as a Machine Learning Engineer, showcasing the projects, technologies, and ideas that define my work in AI, data science, and software engineering.
+Welcome to my personal portfolio repository!  
+This project represents my journey as a **Machine Learning Engineer**, showcasing the projects, technologies, and ideas that define my work in **AI, Data Science, and Software Engineering**.
 
-🔗 Live Website: https://aryankhatriportfoilio.netlify.app
+🔗 **Live Website:** [https://aryankhatriportfoilio.netlify.app](https://aryankhatriportfoilio.netlify.app)
 
-🚀 About the Project
+---
+
+## 🚀 **About the Project**
 
 This portfolio highlights:
 
-🧠 My Machine Learning & Data Science projects
+- 🧠 **Machine Learning & Data Science Projects**
+- 💼 **Hands-on experience** in Python, ML, and MLOps  
+- 🧰 **Technical tools and frameworks** I use  
+- 📬 **Contact details** and social links for collaboration  
 
-💼 Hands-on experience in Python, ML, and MLOps
+> 💡 *This isn’t just a website — it’s a snapshot of my growth and passion for technology.*
 
-🧰 Technical tools and frameworks I use
+---
 
-📬 Contact details and social media links for collaboration opportunities
+## 🛠️ **Tech Stack**
 
-This is not just a website — it’s a snapshot of my growth and passion for technology.
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | HTML, CSS, JavaScript |
+| **Hosting** | Netlify |
+| **Version Control** | Git & GitHub |
 
-🛠️ Tech Stack
+---
 
-Frontend: HTML, CSS, JavaScript
-
-Hosting: Netlify
-
-Version Control: Git & GitHub
-
-📂 Project Structure
+## 📂 **Project Structure**
 portofolio4/
 │
 ├── image/
-│   └── aryan.jpeg
+│ └── aryan.jpeg
 │
 ├── index.html
 ├── script.js
 ├── styles.css
 └── README.md
 
-⚙️ How to Run Locally
 
-Clone the repository
+---
 
-git clone https://github.com/EHyashu/aryan.git
+## ⚙️ **How to Run Locally**
 
-
-Navigate to the project directory
-
-cd aryan/portofolio4
-
-
-Open the website in your browser
-
-open index.html
-
-
-or simply drag index.html into your browser.
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/EHyashu/aryan.git
+   cd aryan/portofolio4
+   open index.html
+   
 🌍 Deployment
 
 This project is hosted on Netlify.
@@ -64,24 +59,23 @@ Every commit pushed to the main branch automatically triggers a new deploy — e
 
 📫 Connect with Me
 
-LinkedIn: Aryan Khatri
+💼 LinkedIn – Aryan Khatri
 
-GitHub: EHyashu
+🧠 GitHub – EHyashu
 
-Email: aryan.khatri@example.com
+📧 Email: aryan.khatri@example.com
 
 💡 Future Enhancements
 
-Add interactive ML project demos
+🎯 Add interactive ML project demos
 
-Integrate AI-based project visualizations
+🤖 Integrate AI-based project visualizations
 
-Launch a “Blog” section for research and learning writeups
+✍️ Launch a “Blog” section for research & learning writeups
 
 📜 License
 
-This project is licensed under the MIT License — you are free to use, modify, and distribute it with proper attribution.
-
+This project is licensed under the MIT License — feel free to use, modify, and share it with attribution.
 MIT License
 
 Copyright (c) 2025 Aryan Khatri
@@ -103,3 +97,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+⭐ If you liked this project, consider giving it a star on GitHub!
+
+---
+
+✅ **Now it will look perfect** on GitHub — with bold headers, proper spacing, color-coded code blocks, tables, and emoji touches for visual balance.  
+Would you like me to make a **dark-theme badge section** (e.g., “Built with ❤️ using HTML, CSS, JS, and Netlify”) at the top? It adds a modern open-source touch.
+
