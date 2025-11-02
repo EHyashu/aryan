@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository!  
 This project represents my journey as a **Machine Learning Engineer**, showcasing the projects, technologies, and ideas that define my work in **AI, Data Science, and Software Engineering**.
 
-🔗 **Live Website:** [https://aryankhatriportfoilio.netlify.app](https://https://aryanportfoilio.netlify.app)
+🔗 **Live Website:** [https://aryanportfoilio.netlify.app]
 
 ---
 
