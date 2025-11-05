@@ -63,7 +63,7 @@ Every commit pushed to the main branch automatically triggers a new deploy — e
 
 🧠 GitHub – EHyashu
 
-📧 Email: aryan.khatri@example.com
+📧 Email: khatriaryan880@gmail.com
 
 💡 Future Enhancements
 
