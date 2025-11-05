@@ -65,7 +65,7 @@ Every commit pushed to the main branch automatically triggers a new deploy — e
 
 📧 Email: khatriaryan880@gmail.com
 
-💡 Future Enhancements
+**Future Enhancements**
 
 🎯 Add interactive ML project demos
 
@@ -73,7 +73,7 @@ Every commit pushed to the main branch automatically triggers a new deploy — e
 
 ✍️ Launch a “Blog” section for research & learning writeups
 
-📜 License
+License
 
 This project is licensed under the MIT License — feel free to use, modify, and share it with attribution.
 MIT License
@@ -101,7 +101,4 @@ SOFTWARE.
 ⭐ If you liked this project, consider giving it a star on GitHub!
 
 ---
-
-✅ **Now it will look perfect** on GitHub — with bold headers, proper spacing, color-coded code blocks, tables, and emoji touches for visual balance.  
-Would you like me to make a **dark-theme badge section** (e.g., “Built with ❤️ using HTML, CSS, JS, and Netlify”) at the top? It adds a modern open-source touch.
 
